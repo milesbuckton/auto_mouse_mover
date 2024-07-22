@@ -20,6 +20,8 @@
  * THE SOFTWARE.
  */
 
+using System.Drawing;
+using System.Windows.Forms;
 using AutoMouseMover.WinWrapper;
 
 namespace AutoMouseMover.WinHelper

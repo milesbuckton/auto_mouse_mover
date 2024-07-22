@@ -33,9 +33,9 @@ namespace AutoMouseMover.Utils
         #region Constants
 
         // Defautl moving period
-        private const int DEF_MOVING_PERIOD       = 5;
+        private const int DEF_MOVING_PERIOD       = 20;
         // Default moving pixel
-        private const int DEF_MOVING_PIXEL        = 5;
+        private const int DEF_MOVING_PIXEL        = 20;
         // Default minimize to tray bar
         private const bool DEF_MINIMIZE_TRAY_BAR  = true;
         // Default show tray bar icon

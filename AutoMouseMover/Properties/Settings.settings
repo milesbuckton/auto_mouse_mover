@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="MovingPeriod" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">5</Value>
+      <Value Profile="(Default)">20</Value>
     </Setting>
     <Setting Name="MovingPixel" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">5</Value>
+      <Value Profile="(Default)">20</Value>
     </Setting>
     <Setting Name="MinimizeToTrayBar" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>

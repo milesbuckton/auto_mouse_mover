@@ -60,43 +60,43 @@ namespace AutoMouseMover.Utils
         // Title property
         public string Title
         {
-            get { return mAssembly.GetCustomAttribute<AssemblyTitleAttribute>().Title; }
+            get { return mAssembly.GetCustomAttribute<AssemblyTitleAttribute>()?.Title; }
         }
 
         // Description property
         public string Description
         {
-            get { return mAssembly.GetCustomAttribute<AssemblyDescriptionAttribute>().Description; }
+            get { return mAssembly.GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description; }
         }
 
         // Configuration property
         public string Configuration
         {
-            get { return mAssembly.GetCustomAttribute<AssemblyConfigurationAttribute>().Configuration; }
+            get { return mAssembly.GetCustomAttribute<AssemblyConfigurationAttribute>()?.Configuration; }
         }
 
         // Company property
         public string Company
         {
-            get { return mAssembly.GetCustomAttribute<AssemblyCompanyAttribute>().Company; }
+            get { return mAssembly.GetCustomAttribute<AssemblyCompanyAttribute>()?.Company; }
         }
 
         // Product property
         public string Product
         {
-            get { return mAssembly.GetCustomAttribute<AssemblyProductAttribute>().Product; }
+            get { return mAssembly.GetCustomAttribute<AssemblyProductAttribute>()?.Product; }
         }
 
         // Copyright property
         public string Copyright
         {
-            get { return mAssembly.GetCustomAttribute<AssemblyCopyrightAttribute>().Copyright; }
+            get { return mAssembly.GetCustomAttribute<AssemblyCopyrightAttribute>()?.Copyright; }
         }
 
         // Trademark property
         public string Trademark
         {
-            get { return mAssembly.GetCustomAttribute<AssemblyTrademarkAttribute>().Trademark; }
+            get { return mAssembly.GetCustomAttribute<AssemblyTrademarkAttribute>()?.Trademark; }
         }
 
         // Version property

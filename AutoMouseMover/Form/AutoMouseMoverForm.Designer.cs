@@ -104,7 +104,7 @@
             this.MovingPixelBox.Size = new System.Drawing.Size(67, 22);
             this.MovingPixelBox.TabIndex = 5;
             this.MovingPixelBox.Value = new decimal(new int[] {
-            5,
+            20,
             0,
             0,
             0});

@@ -36,7 +36,7 @@ namespace AutoMouseMover.Logic
         #region Constants
         
         // Default moving pixel
-        private const int DEFAULT_MOVING_PIXEL = 5;
+        private const int DEFAULT_MOVING_PIXEL = 20;
 
         #endregion
 
